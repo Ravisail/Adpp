@@ -1,0 +1,16 @@
+# OpenOptions v4 — install with: pip install -r requirements.txt
+
+# Core
+streamlit>=1.32
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+plotly>=5.18
+
+# Data providers
+yfinance>=0.2.40       # spot/VIX history (provider chain fallback)
+jugaad-data>=0.28      # live NSE option chain + F&O bhavcopy downloads
+requests>=2.31         # UDiFF bhavcopy archive + broker REST adapters
+
+# Exports
+openpyxl>=3.1          # Excel export (journal, backtest trade logs)
